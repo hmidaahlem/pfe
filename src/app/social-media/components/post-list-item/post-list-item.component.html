@@ -1,0 +1,16 @@
+
+<span appHightlight color="red">{{ post.title | titlecase }}</span>
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>
+       
+      </mat-card-title>
+      <mat-card-subtitle>
+        <span>{{ post.createdDate | date }}</span>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+    
+      <span class="post-content">{{ post.content }}</span>
+    </mat-card-content>
+  </mat-card>
